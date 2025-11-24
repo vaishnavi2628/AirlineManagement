@@ -1,6 +1,6 @@
 ✈️ Airline Management System (ASimulator)
 Overview
-The Airline Management System is a comprehensive desktop application designed to streamline and automate airline operations. This system provides an intuitive interface for managing flight schedules, passenger bookings, cancellations, and journey details. Built with Java Swing for the GUI and MySQL for database management, it offers a robust solution for airline administrative tasks.
+The Airline Management System is a desktop application used for airline management. This system provides an interface for managing flight schedules, passenger bookings, cancellations, and journey details. Built with Java Swing for the GUI and MySQL for database management, it provides solution for airline administrative tasks.
 Features
 Core Functionality
 
@@ -15,8 +15,8 @@ Passenger Management
 
 Add new passenger details
 View passenger information
-Update passenger records
-Search and filter passenger data
+Update passenger details
+we can filter and search for passenger data
 
 
 Booking System
@@ -65,7 +65,7 @@ MySQL - Relational database management system
 
 Development Tools
 
-NetBeans IDE - Integrated Development Environment
+Eclipse IDE - Integrated Development Environment
 Apache Ant - Build automation tool
 
 External Libraries
@@ -143,6 +143,7 @@ CREATE TABLE cancellation (
     reason VARCHAR(200),
     FOREIGN KEY (booking_id) REFERENCES booking(booking_id)
 );
+
 3. Configure Database Connection
 Update the database connection details in your Java code (typically in a database utility class):
 javaString url = "jdbc:mysql://localhost:3306/airline_management";
@@ -194,7 +195,7 @@ Manual Testing Checklist
 3. Booking System Testing
 
  Book a flight for an existing passenger
- Try booking when flight is full (should show error)
+ Try booking when flight is full 
  View booking details
  Check if seat number is auto-assigned correctly
  Verify booking confirmation
@@ -240,7 +241,7 @@ AirlineManagementSystem-master/
 ├── lib/
 │   ├── jcalendar-tz-1.3.3-4.jar
 │   └── mysql-connector-java.jar
-├── nbproject/                        # NetBeans project files
+├── nbproject/                        # Eclipse project files
 ├── build.xml                         # Ant build file
 ├── README.md
 └── statement.md
