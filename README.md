@@ -1,3 +1,4 @@
+
 Airline Management System 
 
 
@@ -172,4 +173,18 @@ File Handling
 Exception Handling
 FrameWorks are used for providing GUI
 Inheritance property have been used 
+
+Screenshot
+
+
+
+<img width="321" height="199" alt="Screenshot 2025-11-24 at 6 20 51 PM" src="https://github.com/user-attachments/assets/7dce37d7-2e39-49cc-a42d-38a40c411f99" />
+
+
+
+<img width="324" height="223" alt="Screenshot 2025-11-24 at 6 21 05 PM" src="https://github.com/user-attachments/assets/ecd52767-03f2-403d-8abe-9806ccea00cc" />
+
+
+<img width="622" height="404" alt="Screenshot 2025-11-24 at 6 21 36 PM" src="https://github.com/user-attachments/assets/30681f09-0a9d-41da-b005-d9efe5b40b10" />
+
 
